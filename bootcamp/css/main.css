@@ -2243,7 +2243,7 @@ img{
 	position:relative;
 	/* padding-right:100px; */
 	padding-left: 21%;
-    width: 80%;
+    width: 100%;
 }
 
 .education-section .image-column .image{
@@ -10803,3 +10803,17 @@ img{
     max-width: 80%;
     height: auto;
   }
+  .spin2 {
+	animation-name: spin2;
+	animation-duration: 3500ms;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;  
+	}
+@keyframes spin2 {
+    from {
+        transform:rotate(0deg);
+    }
+    to {
+        transform:rotate(360deg);
+    }
+}
