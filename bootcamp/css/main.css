@@ -2839,7 +2839,11 @@ img{
 	max-width:680px;
 	width:100%;
 	float:left;
-	padding:110px 15px 110px 80px;
+	padding:34px 50px 34px 56px;
+	/* padding-left: 20px;
+    padding-top: 1px;
+    padding-bottom: 25px;
+    padding-right: 20px; */
 }
 
 .fluid-section-one .content-column h2{
@@ -3166,8 +3170,8 @@ img{
 .testimonial-section{
 	position:relative;
 	overflow:hidden;
-	padding-top:80px;
-	padding-bottom:180px;
+	padding-top:40px;
+	padding-bottom:110px;
 	background-color:#f0f5fb;
 }
 
