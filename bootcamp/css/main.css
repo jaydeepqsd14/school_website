@@ -1680,7 +1680,7 @@ img{
 .banner-section{
 	position:relative;
 	padding-top:154px;
-	padding-bottom:100px;
+	padding-bottom:1px;
 	background-color:#f0f5fb;
 }
 
@@ -2212,7 +2212,7 @@ img{
 .education-section{
 	position:relative;
 	padding-top:0px;
-	padding-bottom:100px;
+	padding-bottom:13px;
 	background-color:#f0f5fb;
 }
 
@@ -2241,7 +2241,9 @@ img{
 
 .education-section .image-column .inner-column{
 	position:relative;
-	padding-right:100px;
+	/* padding-right:100px; */
+	padding-left: 21%;
+    width: 80%;
 }
 
 .education-section .image-column .image{
