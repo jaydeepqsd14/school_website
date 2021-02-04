@@ -2924,6 +2924,7 @@ img{
     -o-transition: all 1200ms ease;
 }
 
+
 .fluid-section-one .content-column.now-in-view .event-block .inner-box:before{
 	width:48%;
 	-webkit-transition-delay: 500ms;
