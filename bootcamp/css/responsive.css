@@ -222,11 +222,23 @@
 		margin:0px;
 		text-align:left;
 	}
+	.logoimg
+	{
+	  width: 17%;
+	  margin-top: 1px;
+	  margin-left: 21px;
+	}
 	
 	.page-title{
 		padding:110px 0px;
 	}
-	
+	.pagtitle
+{
+	position: relative;
+    text-align: center;
+    padding: 1px 0px 0px;
+  
+}
 	.main-header .nav-outer{
 		width:100%;
 		margin-top:-25px;
@@ -458,6 +470,11 @@
 	.student-profile-section,
 	.sidebar-page-container{
 		padding-top:100px;
+	}
+	.bookspagesection{
+		position:relative;
+		padding:1px 0px 80px;
+		background-color:#f0f5fb;
 	}
 	
 	.login-section{
@@ -831,6 +848,7 @@
 	.main-header .header-upper .logo-box{
 		padding:18px 0px 18px;
 		z-index:20;
+		position: inherit;
 	}
 	
 	.main-header .header-upper .option-box .nav-btn{
@@ -965,6 +983,10 @@
 	.books-detail-section .info-column,
 	.student-block{
 		margin-bottom:40px;
+	}
+	.related-projects{
+		position:relative;
+		padding-top:25px;
 	}
 	
 }
