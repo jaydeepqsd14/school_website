@@ -1847,7 +1847,7 @@ img{
 }
 
 .mobile-menu .nav-logo img{
-	max-width:200px;
+	max-width:80px;
 }
 
 .mobile-menu-visible{
@@ -2228,7 +2228,7 @@ img{
 
 .education-section{
 	position:relative;
-	padding-top:0px;
+	padding-top:27px;
 	padding-bottom:13px;
 	background-color:#f0f5fb;
 }
@@ -3809,8 +3809,8 @@ img{
 
 .slider-section {
     position: relative;
-    padding-top: 230px;
-    padding-bottom: 180px;
+    padding-top: 180px;
+    padding-bottom: 1px;
     overflow: hidden;
 	background-position:right top;
 	background-repeat:no-repeat;
@@ -3856,8 +3856,8 @@ img{
     color:#ffffff;
     font-size: 16px;
     line-height: 1.8em;
-    margin-bottom: 40px;
-    margin-top: 20px;
+    margin-bottom: 1px;
+    margin-top: 1px;
     opacity: 0;
     font-weight: 400;
     transform: scaleY(0);
@@ -10869,4 +10869,9 @@ img{
 	position: relative;
     padding: 0px 0px 0px;
     background-color: #f0f5fb;
+}
+.center{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
 }

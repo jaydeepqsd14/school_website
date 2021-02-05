@@ -367,8 +367,8 @@
 	}
 	
 	.slider-section{
-		padding-top:120px;
-		padding-bottom:80px;
+		padding-top:40px;
+		padding-bottom:1px;
 	}
 	
 	.slider-section .content-column .inner-column{
@@ -377,7 +377,7 @@
 	
 	.slider-section .image-column .inner-column{
 		margin-right:0px;
-		margin-top:60px;
+		margin-top:1px;
 	}
 	
 	.education-section-two{
