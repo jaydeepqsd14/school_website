@@ -122,15 +122,15 @@
 											<li><a href="comming-soon.html">Dedicated Server</a></li>
 										</ul> -->
 									</li>
-									<li class="dropdown"><a href="#">Courses</a>
-                                        <!-- <ul>
+									<!-- <li class="dropdown"><a href="#">Courses</a>
+                                        <ul>
                                             <li><a href="course.html">Courses As Grid</a></li>
 											<li><a href="course-list.html">Courses As List</a></li>
 											<li><a href="course-path.html">Course Topics</a></li>
 											<li><a href="course-lesson.html">Course Lesson</a></li>
 											<li><a href="course-detail.html">Course Details</a></li>
-                                        </ul> -->
-                                    </li>
+                                        </ul>
+                                    </li> -->
 									<!-- <li class="dropdown"><a href="#">Books</a>
                                         <ul>
                                             <li><a href="books.html">Books</a></li>
@@ -279,7 +279,7 @@
                                     <li class="ul1">Complete profile with photographs</li>
                                     <li class="ul1">Family and guardian detail</li>
                                     <li class="ul1">Facility for uploading documents.</li>
-                                    <span id="text">
+                                    <span class="moretext">
                                     <li class="ul1">Data import & Bulk upload facility</li>
                                     <li class="ul1">Auto roll number generation</li>
                                     <li class="ul1">Inbuilt ID card</li>                   
@@ -292,7 +292,7 @@
                             </div>
                             <div class="clearfix">
                                 <div class="pull-right">
-									<a class="enroll" id="toggle">Read More</a>
+									<a class="moreless-button enroll" >Read More</a>
 								</div>
                                 
                             </div>
@@ -318,7 +318,7 @@
                                     <li class="ul1">Manage School Fees online</li>
                                     <li class="ul1">Fees Due Report</li>
                                     <li class="ul1">send Fee dues to parents</li>
-                                    <span id="text">
+                                    <span class="moretext">
                                     <li class="ul1">Communication Facilities (Voice Messaging, E-mail, Chats, etc)</li>
                                     <li class="ul1">Attendance & Timetable Management</li>
                                     <li class="ul1">Online Assessments and Assignments</li>                   
@@ -328,7 +328,7 @@
                             </div>
                             <div class="clearfix">
                                  <div class="pull-right">
-									<a class="enroll" id="toggle">Read More</a>
+									<a class="moreless-button enroll" id="toggle">Read More</a>
 								</div>
                                 
                             </div>
@@ -946,19 +946,13 @@
 
 </body>
 <script>
-$(document).ready(function() {
-  $("#toggle").click(function() {
-    var elem = $("#toggle").text();
-    if (elem == "Read More") {
-      
-      $("#toggle").text("Read Less");
-      $("#text").slideDown();
-    } else {
-     
-      $("#toggle").text("Read More");
-      $("#text").slideUp();
-    }
-  });
+$('.moreless-button').click(function() {
+  $('.moretext').slideToggle();
+  if ($('.moreless-button').text() == "Read more") {
+    $(this).text("Read less")
+  } else {
+    $(this).text("Read more")
+  }
 });
     </script>
 </html>
