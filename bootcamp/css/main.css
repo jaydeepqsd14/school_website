@@ -2324,7 +2324,9 @@ img{
 .cource-block{
 	position:relative;
 	margin-bottom:30px;
+
 }
+
 
 .cource-block .inner-box{
 	position:relative;
@@ -2332,7 +2334,18 @@ img{
 	background-color:#ffffff;
 	box-shadow:0px 0px 15px rgba(0,0,0,0.08);
 }
-
+.cource-block .inner-box:hover{
+	animation-name: bounce;
+    -moz-animation-duration: 1s;
+    -ms-animation-duration: 1s;
+    -o-animation-duration: 1s;
+	animation-duration: 1s;
+}
+@keyframes bounce {
+	0%, 20%, 50%, 80%, 100% {transform: translateY(0);}
+	40% {transform: translateY(-30px);}
+	60% {transform: translateY(-15px);}
+}
 .cource-block .inner-box .image{
 	position:relative;
 	overflow:hidden;

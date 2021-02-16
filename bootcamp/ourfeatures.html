@@ -26,6 +26,9 @@
     .collapse:not(.show) {
     display: block;
 }
+.moretext{
+    display: none;
+}
 </style>
 <body>
 
@@ -939,13 +942,20 @@
 
 </body>
 <script>
-$('.moreless-button').click(function() {
-  $('.moretext').slideToggle();
-  if ($('.moreless-button').text() == "Read more") {
-    $(this).text("Read less")
-  } else {
-    $(this).text("Read more")
-  }
+$(document).ready(function() {
+  $("#toggle").click(function() {
+    var elem = $(this).text();
+    if (elem == "Read More") {
+
+      $(this).text("Read Less");
+      $("#text").slideDown();
+    } else {
+
+      $(this).text("Read More");
+      $("#text").slideUp();
+    }
+  });
+
 });
     </script>
 </html>
