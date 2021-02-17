@@ -479,7 +479,7 @@
 	}
 	.contact-page-section{
 		position:relative;
-		padding: 25px 0px 1px;
+		padding: 0px 0px 1px;
 		background-color:#f0f5fb;
 	}
 	.login-section{
@@ -1007,7 +1007,7 @@
 	}
 	.related-projects{
 		position:relative;
-		padding-top:25px;
+		padding-top:0px;
 	}
 	.sliderheaderimg1
 	{
@@ -1327,5 +1327,13 @@
 		margin-left:0px;
 		width:100%;
 	}
-	
+
+	.courseheadingblock {
+		position: relative;
+		color: #030303;
+		line-height: 1.2em;
+		font-weight: 700;
+		font-size: 29px;
+		padding-top: 154px;
+	}
 }
