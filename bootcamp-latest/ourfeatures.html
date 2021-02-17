@@ -1,0 +1,961 @@
+ <!DOCTYPE html>
+<html>
+
+<!-- Mirrored from demo.auburnforest.com/html/bootcamp/bootcamp/login.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 29 Jan 2021 05:24:41 GMT -->
+<head>
+<meta charset="utf-8">
+<title>QSD SOFTWARES</title>
+<!-- Stylesheets -->
+<link href="css/bootstrap.css" rel="stylesheet">
+<link href="css/main.css" rel="stylesheet">
+<link href="css/responsive.css" rel="stylesheet">
+
+<link rel="shortcut icon" href="images/schlogo.png" type="image/x-icon">
+<link rel="icon" href="images/schlogo.png" type="image/x-icon">
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&amp;family=Titillium+Web:wght@300;400;600;700;900&amp;display=swap" rel="stylesheet">
+
+<!-- Responsive -->
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+
+<!--[if lt IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script><![endif]-->
+<!--[if lt IE 9]><script src="js/respond.js"></script><![endif]-->
+</head>
+<style>
+    .collapse:not(.show) {
+    display: block;
+}
+</style>
+<body>
+
+<div class="page-wrapper">
+ 	
+    <!-- Preloader -->
+    <div class="preloader"></div>
+ 	
+    <!-- Main Header-->
+    <header class="main-header header-style-one">
+		
+		<!-- Header Top -->
+        <div class="header-top">
+            <div class="auto-container">
+                <div class="clearfix">
+				
+					<!-- Top Left -->
+                    <div class="top-left pull-left clearfix">
+					
+						<!-- Info List -->
+                        <ul class="info-list">
+							<li><span>Call Us:</span><a href="tel:+123-456-7890"> +1 (800) 123-4567</a></li>
+							<li><span>Email Us:</span><a href="mailto:info@qsdoffice.com"> info@qsdoffice.com</a></li>
+						</ul>
+						
+                    </div>
+					
+					<!-- Top Right -->
+					<div class="top-right pull-right clearfix">
+						<!-- Login Nav -->
+						<ul class="login-nav">
+							<li><a href="login.html">Log In</a></li>
+							<li><a href="register.html">Register</a></li>
+						</ul>
+					</div>
+					
+                </div>
+            </div>
+        </div>
+		
+    	<!-- Header Upper -->
+        <div class="header-upper">
+        	<div class="auto-container">
+            	<div class="clearfix">
+                	
+                	<div class="pull-left logo-box">
+                    	<div class="logo"><a href="index-2.html"><img src="images/schlogo.png" class="logoimg" alt="" title="Bootcamp"></a></div>
+                    </div>
+                   	
+                   	<div class="nav-outer clearfix">
+						<!--Mobile Navigation Toggler-->
+                        <div class="mobile-nav-toggler"><span class="icon flaticon-menu"></span></div>
+						<!-- Main Menu -->
+						<nav class="main-menu show navbar-expand-md">
+							<div class="navbar-header">
+								<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+									<span class="icon-bar"></span>
+									<span class="icon-bar"></span>
+									<span class="icon-bar"></span>
+								</button>
+							</div>
+
+							<div class="navbar-collapse collapse clearfix" id="navbarSupportedContent">
+								<ul class="navigation clearfix">
+									<li class=""><a href="index.html">Home</a>
+										<!-- <ul>
+											<li><a href="index-2.html">Home Page 01</a></li>
+											<li><a href="index-3.html">Home Page 02</a></li>
+											<li><a href="index-4.html">Home Page 03</a></li>
+										</ul> -->
+									</li>
+									<!-- <li class="dropdown"><a href="#">Pages</a>
+										<ul>
+											<li><a href="price.html">Pricing</a></li>
+											<li><a href="login.html">Login</a></li>
+											<li><a href="register.html">Register</a></li>
+											<li><a href="privacy.html">Privacy Policy</a></li>
+											<li><a href="comming-soon.html">Coming Soon</a></li>
+										</ul>
+									</li> -->
+									<li class="dropdown"><a href="ourfeatures.html">Features</a>
+										<!-- <ul>
+											<li><a href="price.html">Customised Accounting Software</a></li>
+											<li><a href="ourfeatures.html">Our Features</a></li>
+											<li><a href="sms.html">Student Management System</a></li>
+											<li><a href="stms.html">Staff Management System</a></li>
+											<li><a href="library.html">Library Management System</a></li>
+											<li><a href="transport.html">Transport Management System</a></li>
+											<li><a href="erpsolutions.html">ERP Solution</a></li>
+											<li><a href="desktopsoftware.html">Customised Desktop Application</a></li>
+											<li><a href="webapplication.html">Customised Web Application</a></li>
+											<li><a href="comming-soon.html">Ecommerse</a></li>
+											<li><a href="comming-soon.html">Online School ERP</a></li>
+											<li><a href="comming-soon.html">Dedicated Server</a></li>
+										</ul> -->
+									</li>
+									<!-- <li class="dropdown"><a href="#">Courses</a>
+                                        <ul>
+                                            <li><a href="course.html">Courses As Grid</a></li>
+											<li><a href="course-list.html">Courses As List</a></li>
+											<li><a href="course-path.html">Course Topics</a></li>
+											<li><a href="course-lesson.html">Course Lesson</a></li>
+											<li><a href="course-detail.html">Course Details</a></li>
+                                        </ul>
+                                    </li> -->
+									<!-- <li class="dropdown"><a href="#">Books</a>
+                                        <ul>
+                                            <li><a href="books.html">Books</a></li>
+                                            <li><a href="books-detail.html">Book Detail</a></li>
+                                        </ul>
+                                    </li> -->
+									<li><a href="gallery.html">Gallery</a>
+                                        <!-- <ul>
+                                            <li><a href="intro-profile.html">Instructor Profile</a></li>
+											<li><a href="student-profile.html">Student Profile</a></li>
+											<li><a href="edit-profile.html">Edit Profile</a></li>
+                                        </ul> -->
+                                    </li>
+									<!-- <li class="dropdown"><a href="#">Blog</a>
+                                        <ul>
+                                            <li><a href="blog.html">Blog</a></li>
+											<li><a href="blog-detail.html">Blog Detail</a></li>
+											<li><a href="error.html">Not Found / 404</a></li>
+                                        </ul>
+                                    </li> -->
+									<li><a href="contact.html">Contact Us</a></li>
+								</ul>
+							</div>
+							
+						</nav>
+						
+					</div>
+                   
+                </div>
+            </div>
+		</div>
+        <!-- End Header Upper -->
+        
+		<!-- Mobile Menu  -->
+        <div class="mobile-menu">
+            <div class="menu-backdrop"></div>
+            <div class="close-btn"><span class="icon flaticon-multiply"></span></div>
+            
+            <nav class="menu-box">
+                <div class="nav-logo"><a href="index.html"><img src="images/schlogo.png" class="center" alt="" title=""></a></div>
+                <div class="menu-outer">
+					<!--Here Menu Will Come Automatically Via Javascript / Same Menu as in Header-->
+				</div>
+            </nav>
+        </div>
+		<!-- End Mobile Menu -->
+		
+    </header>
+    <!-- End Main Header -->
+	
+	<!-- Page Title -->
+    <section class="pagtitle">
+        <div class="auto-container">
+			<!-- <h1>Customised Web Application</h1> -->
+			
+			
+			<!-- <div class="search-boxed">
+				<div class="search-box">
+					<form method="post" action="http://demo.auburnforest.com/html/bootcamp/bootcamp/contact.html">
+						<div class="form-group">
+							<input type="search" name="search-field" value="" placeholder="What do you want to learn?" required>
+							<button type="submit"><span class="icon fa fa-search"></span></button>
+						</div>
+					</form>
+				</div>
+			</div> -->
+			
+        </div>
+    </section>
+    <!--End Page Title-->
+	
+	<!-- Login Section -->
+	<section class="features">
+		<div class="container">
+			<!-- <div class="login-box">
+				
+				
+				<div class="title-box">
+					<h2>Login</h2>
+					<div class="text"><span class="theme_color">Welcome!</span> Please confirm that you are visiting</div>
+				</div>
+				
+				
+				<div class="styled-form">
+					<form method="post" action="http://demo.auburnforest.com/html/bootcamp/bootcamp/index.html">
+						<div class="form-group">
+							<label>User Name</label>
+							<input type="text" name="username" value="" placeholder="User Name" required>
+						</div>
+						<div class="form-group">
+							<label>Password</label>
+							<span class="eye-icon flaticon-eye"></span>
+							<input type="password" name="password" value="" placeholder="Password" required>
+						</div>
+						<div class="form-group">
+							<div class="clearfix">
+								<div class="pull-left">
+									<div class="check-box">
+										<input type="checkbox" name="remember-password" id="type-1"> 
+										<label for="type-1">Remember Password</label>
+									</div>
+								</div>
+								<div class="pull-right">
+									<a href="#" class="forgot">Forget Password?</a> 
+								</div>
+							</div>
+						</div>
+						<div class="form-group text-center">
+							<button type="button" class="theme-btn btn-style-three"><span class="txt">Login <i class="fa fa-angle-right"></i></span></button>
+						</div>
+						<div class="form-group">
+							<div class="users">New User? <a href="register.html">Sign Up</a></div>
+						</div>
+					</form>
+				</div>
+				
+			</div> -->
+           
+        </div>
+	</section> 
+  
+
+    <section class="courses-section">
+        <div class="overlay">
+        <div class="courseimgblock" style="background-image: url('images/background/2.jpg');">
+                    <h2  class="courseheadingblock"style="text-align: center;">Our Top Features</h2>            
+        </div>
+    </div>
+        <div class="auto-container">
+          
+            <div class="sec-title">
+                
+              
+            </div>
+            
+            <div class="row clearfix">
+                
+                <!-- Title Column -->
+              
+                <!-- Cource Block -->
+                <div class="cource-block col-lg-4 col-md-6 col-sm-12">
+                    <div class="inner-box">
+                        <div class="image">
+                            <img src="images/course/stu.png" alt="" /></a>
+                        </div>
+                        <div class="lower-content">
+                            <div class="clearfix">
+                                <div class="pull-left">
+                                    <h5>Student Management</h5>
+                                </div>
+                                
+                            </div>
+                            <div class="text">
+                                <ul style="list-style-type: disc;">
+                                    <li class="ul1">Complete profile with photographs</li>
+                                    <li class="ul1">Family and guardian detail</li>
+                                    <li class="ul1">Facility for uploading documents.</li>
+                                    <span class="moretext1" style="display: none;">
+                                    <li class="ul1">Data import & Bulk upload facility</li>
+                                    <li class="ul1">Auto roll number generation</li>
+                                    <li class="ul1">Inbuilt ID card</li>                   
+                                    <li class="ul1">Well designed reports</li>                  
+                                    <li class="ul1">Library Management</li>
+                                    <li class="ul1">Custom search reports</li>
+                                </span>
+                                </ul>
+                            
+                            </div>
+                            <div class="clearfix">
+                                <div class="pull-right">
+									<a class="moreless-button enroll" id='1'>Read More</a>
+								</div>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Cource Block -->
+                <div class="cource-block col-lg-4 col-md-6 col-sm-12">
+                    <div class="inner-box">
+                        <div class="image">
+                            <img src="images/course/staff.png" alt="" /></a>
+                        </div>
+                        <div class="lower-content">
+                            <div class="clearfix">
+                                <div class="pull-left">
+                                    <h5>Staff Management</h5>
+                                </div>
+                                
+                            </div>
+                            <div class="text">
+                                <ul STYLE="list-style-type: disc;">
+                                    <li class="ul1">Manage School Fees online</li>
+                                    <li class="ul1">Fees Due Report</li>
+                                    <li class="ul1">send Fee dues to parents</li>
+                                    <span class="moretext2" style="display: none;">
+                                    <li class="ul1">Communication Facilities (Voice Messaging, E-mail, Chats, etc)</li>
+                                    <li class="ul1">Attendance & Timetable Management</li>
+                                    <li class="ul1">Online Assessments and Assignments</li>                   
+                                    <li class="ul1">Fee Tracking</li>
+                                </span>
+                                </ul>
+                            </div>
+                            <div class="clearfix">
+                                 <div class="pull-right">
+									<a class="moreless-button enroll" id="2">Read More</a>
+								</div>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Cource Block -->
+                <div class="cource-block col-lg-4 col-md-6 col-sm-12">
+                    <div class="inner-box">
+                        <div class="image">
+                           <img src="images/course/library.png" alt="" /></a>
+                        </div>
+                        <div class="lower-content">
+                            <div class="clearfix">
+                                <div class="pull-left">
+                                    <h5>Library Management</h5>
+                                </div>
+                                
+                            </div>
+                            <div class="text">
+                                <ul STYLE="list-style-type: disc;">
+                                    <li class="ul1">Adding new users</li>
+                                    <li class="ul1">Updating users</li>
+                                    <li class="ul1">Deleting users</li>
+                                    <span class="moretext3" style="display: none;">
+                                    <li class="ul1">Issuing books</li>
+                                    <li class="ul1"> Collecting books back</li>
+                                    <li class="ul1">Searching for books, users</li>                   
+                                    <li class="ul1">Fine Collection</li> 
+                                </span> 
+                                </ul>
+                            </div>
+                            <div class="clearfix">
+                                <div class="pull-right">
+									<a class="moreless-button enroll" id="3">Read More</a>
+								</div>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                
+             
+                
+            </div>
+        </div>
+    </section>
+    <section class="courses-section">
+        <div class="auto-container">
+            <div class="row clearfix">
+                
+                <!-- Title Column -->
+                
+                
+                <!-- Cource Block -->
+                <div class="cource-block col-lg-4 col-md-6 col-sm-12">
+                    <div class="inner-box">
+                        <div class="image">
+                            <img src="images/course/transport.png" alt="" /></a>
+                        </div>
+                        <div class="lower-content">
+                            <div class="clearfix">
+                                <div class="pull-left">
+                                    <h5>Transport Management</h5>
+                                </div>
+                                
+                            </div>
+                            <div class="text">
+                                <ul STYLE="list-style-type: disc;">
+                                    <li class="ul1">Real-time Tracking</li>
+                                        <li class="ul1">Pickup facilities</li>
+                                        <li class="ul1">Drop facilities</li>
+                                    <span class="moretext4" style="display: none;">
+                                    </span>
+                                </ul>
+                            </div>
+                            <div class="clearfix">
+                                <div class="pull-right">
+									<a class="moreless-button enroll" id="toggle">Read More</a>
+								</div>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Cource Block -->
+                <div class="cource-block col-lg-4 col-md-6 col-sm-12">
+                    <div class="inner-box">
+                        <div class="image">
+                            <img src="images/course/erps.png" alt="" /></a>
+                        </div>
+                        <div class="lower-content">
+                            <div class="clearfix">
+                                <div class="pull-left">
+                                    <h5>ERP Solution</h5>
+                                </div>
+                                
+                            </div>
+                            <div class="text">
+                                <ul STYLE="list-style-type: disc;">
+                                    <li class="ul1">Admission Management</li>
+                                    <li class="ul1">Transport Management</li>
+                                    <li class="ul1">Fee Management</li>
+                                    <span class="moretext4" style="display: none;">
+                                    <li class="ul1">Library & Examination</li>
+                                    <li class="ul1">Staff</li>
+                                    <li class="ul1">Time-Table</li>
+                                    <li class="ul1">Purchase & Inventory</li>
+                                    <li class="ul1">Accounts</li>
+                                    <li class="ul1">Infirmary & Security</li>
+                                    <li class="ul1">Hostel & Mess</li>
+                                </span>
+                                </ul>
+                            </div>
+                            <div class="clearfix">
+                                <div class="pull-right">
+									<a class="moreless-button enroll" id="4">Read More</a>
+								</div>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Cource Block -->
+                <div class="cource-block col-lg-4 col-md-6 col-sm-12">
+                    <div class="inner-box">
+                        <div class="image">
+                           <img src="images/course/payroll.png" alt="" /></a>
+                        </div>
+                        <div class="lower-content">
+                            <div class="clearfix">
+                                <div class="pull-left">
+                                    <h5>Payroll Management</h5>
+                                </div>
+                                
+                            </div>
+                            <div class="text">
+                                <ul STYLE="list-style-type: disc;">
+                                    <li class="ul1">Yearly and monthly payroll reports</li>
+                                    <li class="ul1">Multiple Salary Generations</li> 
+                                    <li class="ul1">PF and Tax deduction</li>
+                                    <span class="moretext5" style="display: none;">
+                                    <li class="ul1">Define separate payroll for multiple department</li>
+                                        <li class="ul1">Auto calculation for dependent salary head</li>
+                                        <li class="ul1">Employee payroll slip</li>
+                                    </span>
+                                </ul>
+                            </div>
+                            <div class="clearfix">
+                                <div class="pull-right">
+									<a class="moreless-button enroll" id="5">Read More</a>
+								</div>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                
+             
+                
+            </div>
+        </div>
+    </section>
+    <section class="courses-section">
+        <div class="auto-container">
+            <div class="row clearfix">
+                
+                <!-- Title Column -->
+                
+                
+                <!-- Cource Block -->
+                <div class="cource-block col-lg-4 col-md-6 col-sm-12">
+                    <div class="inner-box">
+                        <div class="image">
+                            <img src="images/course/desk.png" alt="" /></a>
+                        </div>
+                        <div class="lower-content">
+                            <div class="clearfix">
+                                <div class="pull-left">
+                                    <h5>Customised Desktop Application</h5>
+                                </div>
+                                
+                            </div>
+                            <div class="text">
+                                <ul STYLE="list-style-type: disc;">
+                                    <li class="ul1">Standalone Business Application</li>
+                                    <li class="ul1">Client-Server Applications</li>
+                                    <li class="ul1">Utilities and Plug-ins for systems</li>
+                                    <span class="moretext6" style="display: none;">
+                                    <li class="ul1">Collaborative Application</li>
+                                    <li class="ul1">Multimedia Applications</li>
+                                </span>
+                                </ul>
+                            </div>
+                            <div class="clearfix">
+                                <div class="pull-right">
+									<a class="moreless-button enroll" id="6">Read More</a>
+								</div>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Cource Block -->
+                <div class="cource-block col-lg-4 col-md-6 col-sm-12">
+                    <div class="inner-box">
+                        <div class="image">
+                            <img src="images/course/web.png" alt="" /></a>
+                        </div>
+                        <div class="lower-content">
+                            <div class="clearfix">
+                                <div class="pull-left">
+                                    <h5>Customised Web Application</h5>
+                                </div>
+                                
+                            </div>
+                            <div class="text">
+                                <ul STYLE="list-style-type: disc;">
+                                    <li class="ul1">Static Web Applications.</li>
+                                    <li class="ul1">Dynamic Web Applications</li>
+                                    <li class="ul1">Shop online or e-commerce</li>
+                                    <span class="moretext7" style="display: none;">
+                                    <li class="ul1">Portal web app</li>
+                                    <li class="ul1">Animated Web Applications</li>
+                                    <li class="ul1">Web applications with a content management system</li>
+                                    <li class="ul1">Other considerations in the development of web applications</li>
+                                </span>
+                                </ul>
+                            </div>
+                            <div class="clearfix">
+                                <div class="pull-right">
+									<a class="moreless-button enroll" id="7">Read More</a>
+								</div>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Cource Block -->
+                <div class="cource-block col-lg-4 col-md-6 col-sm-12">
+                    <div class="inner-box">
+                        <div class="image">
+                           <img src="images/course/excel.png" alt="" /></a>
+                        </div>
+                        <div class="lower-content">
+                            <div class="clearfix">
+                                <div class="pull-left">
+                                    <h5>Import Files and Reports Generation</h5>
+                                </div>
+                                
+                            </div>
+                            <div class="text">
+                                <ul STYLE="list-style-type: disc;">
+                                    <li class="ul1">Employee payroll slip</li>
+                                    <li class="ul1">Yearly and monthly payroll reports</li>
+                                    <li class="ul1">Multiple Salary Generations</li>
+                                    <span class="moretext8" style="display: none;">
+                                    <li class="ul1">Define separate payroll for multiple department</li>
+                                        <li class="ul1">Auto calculation for dependent salary head</li>
+                                        <li class="ul1">PF and Tax deduction</li>
+                                        </span>
+                                </ul>
+                            </div>
+                            <div class="clearfix">
+                                <div class="pull-right">
+									<a class="moreless-button enroll" id="8">Read More</a>
+								</div>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                
+             
+                
+            </div>
+        </div>
+    </section>
+	<!-- <section class="features17 cid-rEj2TT5QDl" id="features17-g">
+        <div class="container-fluid">
+            <div class="media-container-row row">
+                <div class="card p-3  col-md-6 col-lg-3">
+                    <div class="card-wrapper">
+                        <div class="card-img">
+                            <img src="images/course/staff.png" style="height: 142px;  width: 100%;" alt="Critical Business Reports, billing software for pc" title="" class="" src="https://vyaparwebsiteimages.vypcdn.in/marketing-images/images/g5.jpg">
+                        </div>
+                        <div class="card-box">
+                            <h4 class="card-title pb-3 mbr-fonts-style display-7">Staff Management</h4>
+                            <div id="summary">
+                                <p class="collapse mbr-text mbr-fonts-style display-7" id="y5">
+                                    <li class="ul1">Manage School Fees online</li>
+                                    <li class="ul1">Fees Due Report</li>
+                                    <li class="ul1">send Fee dues to parents</li>
+                                    <li class="ul1">Communication Facilities (Voice Messaging, E-mail, Chats, etc)</li>
+                                    <li class="ul1">Attendance & Timetable Management</li>
+                                    <li class="ul1">Online Assessments and Assignments</li>                   
+                                    <li class="ul1">Fee Tracking</li>
+                                </p>
+                                <a class="collapsed" data-toggle="collapse" href="#y5" aria-expanded="false" aria-controls="y5"></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        
+                <div class="card p-3  col-md-6 col-lg-3">
+                    <div class="card-wrapper">
+                        <div class="card-img">
+                            <img src="images/course/library.png" style="height: 142px;  width: 100%;" alt="Business Status, desktop accounting software" title="" class="" src="https://vyaparwebsiteimages.vypcdn.in/marketing-images/images/g6.jpg">
+                        </div>
+                        <div class="card-box">
+                            <h4 class="card-title pb-3 mbr-fonts-style display-7">Library Management</h4>
+                            <div id="summary">
+                                <p class="collapse mbr-text mbr-fonts-style display-7" id="y6">
+                                    <ul>
+                                        <li class="ul1">Adding new users, books and magazines/newspaper</li>
+                                        <li class="ul1">Updating users, books and magazines/newspaper</li>
+                                        <li class="ul1">Deleting users, books and magazines/newspaper</li>
+                                        <li class="ul1">Issuing books</li>
+                                        <li class="ul1"> Collecting books back</li>
+                                        <li class="ul1">Searching for books, users</li>                   
+                                        <li class="ul1">Fine Collection</li>                   
+                                                     
+                                    </ul>
+                                </p>
+                                <a class="collapsed" data-toggle="collapse" href="#y6" aria-expanded="false" aria-controls="y6"></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        
+                <div class="card p-3  col-md-6 col-lg-3">
+                    <div class="card-wrapper">
+                        <div class="card-img">
+                            <img src="images/course/transport.png" style="height: 142px;  width: 100%;" alt="Go Paperless, desktop accounting software" title="" class="" src="https://vyaparwebsiteimages.vypcdn.in/marketing-images/images/g7.jpg">
+                        </div>
+                        <div class="card-box">
+                            <h4 class="card-title pb-3 mbr-fonts-style display-7">Transport Management System</h4>
+                                <div id="summary">
+                                <p class="collapse mbr-text mbr-fonts-style display-7" id="y7">
+                                    <ul style="list-style-type: disc;">
+                                        <li class="ul1">Real-time Tracking</li>
+                                        <li class="ul1">Pickup facilities</li>
+                                        <li class="ul1">Drop facilities</li>
+                                                      
+                                    </ul>
+                                </p>
+                                <a class="collapsed" data-toggle="collapse" href="#y7" aria-expanded="false" aria-controls="y7"></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        
+                <div class="card p-3  col-md-6 col-lg-3">
+                    <div class="card-wrapper">
+                        <div class="card-img">
+                            <img src="images/course/erps.png" style="height: 142px;  width: 100%;" alt="Receivable/Payable, desktop accounting software" title="" class="" src="https://vyaparwebsiteimages.vypcdn.in/marketing-images/images/g8.jpg">
+                        </div>
+                        <div class="card-box">
+                            <h4 class="card-title pb-3 mbr-fonts-style display-7">ERP Solution</h4>
+                            <div id="summary">
+                                <p class="collapse mbr-text mbr-fonts-style display-7" id="y8">
+                                    <ul STYLE="list-style-type: disc;">
+                                        <li class="ul1">Admission</li>
+                                        <li class="ul1">Transport</li>
+                                        <li class="ul1">Fee</li>
+                                        <li class="ul1">Library & Examination</li>
+                                        <li class="ul1">Staff</li>
+                                        <li class="ul1">Time-Table</li>
+                                        <li class="ul1">Purchase & Inventory</li>
+                                        <li class="ul1">Accounts</li>
+                                        <li class="ul1">Infirmary & Security</li>
+                                        <li class="ul1">Hostel & Mess</li>
+                                       
+                                    </ul>
+                                </p>
+                                <a class="collapsed" data-toggle="collapse" href="#y8" aria-expanded="false" aria-controls="y8"></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                
+            </div>
+        </div>
+        </section> -->
+       
+        <!-- <div class="container-fluid">
+            <div class="media-container-row row">
+                <div class="card p-3  col-md-6 col-lg-3">
+                    <div class="card-wrapper">
+                        <div class="card-img">
+                            <img src="images/course/payroll.png" style="height: 142px;  width: 100%;" alt="Purchase and Sale Orders, desktop accounting software" title="" class="" src="https://vyaparwebsiteimages.vypcdn.in/marketing-images/images/g9.jpg">
+                        </div>
+                        <div class="card-box">
+                            <h4 class="card-title pb-3 mbr-fonts-style display-7">Payroll Management</h4>
+                            <div id="summary">
+                                <p class="collapse mbr-text mbr-fonts-style display-7" id="y9">
+                                    <ul STYLE="list-style-type: disc;">
+                                        
+                                        <li class="ul1">Define separate payroll for multiple department</li>
+                                        <li class="ul1">Auto calculation for dependent salary head</li>
+                                        <li class="ul1">PF and Tax deduction</li>
+                                        <li class="ul1">Employee payroll slip</li>
+                                        <li class="ul1">Yearly and monthly payroll reports</li>
+                                        <li class="ul1">Multiple Salary Generations</li>
+                                    </ul>
+                                </p>
+                                <a class="collapsed" data-toggle="collapse" href="#y9" aria-expanded="false" aria-controls="y5"></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        
+                <div class="card p-3  col-md-6 col-lg-3">
+                    <div class="card-wrapper">
+                        <div class="card-img">
+                            <img src="images/course/desk.png" style="height: 142px;  width: 100%;" alt="Bank Accounts, billing software for pc" title="" class="" src="https://vyaparwebsiteimages.vypcdn.in/marketing-images/images/g10.jpg">
+                        </div>
+                        <div class="card-box">
+                            <h4 class="card-title pb-3 mbr-fonts-style display-7">Customised Desktop Application</h4>
+                            <div id="summary">
+                                <p class="collapse mbr-text mbr-fonts-style display-7" id="y10">
+                                    <ul STYLE="list-style-type: disc;">
+                                        <li class="ul1">Standalone Business Application</li>
+                                        <li class="ul1">Client-Server Applications</li>
+                                        <li class="ul1">Utilities and Plug-ins for systems</li>
+                                        <li class="ul1">Collaborative Application</li>
+                                        <li class="ul1">Multimedia Applications</li>
+                                      
+                                    </ul>
+                                </p>
+                                <a class="collapsed" data-toggle="collapse" href="#y10" aria-expanded="false" aria-controls="y6"></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        
+                <div class="card p-3  col-md-6 col-lg-3">
+                    <div class="card-wrapper">
+                        <div class="card-img">
+                            <img src="images/course/web.png" style="height: 142px;  width: 100%;" alt="Dedicated &amp; Free Support, billing software for pc" title="" class="" src="https://vyaparwebsiteimages.vypcdn.in/marketing-images/images/g11.jpg">
+                        </div>
+                        <div class="card-box">
+                            <h4 class="card-title pb-3 mbr-fonts-style display-7">Customised Web Application</h4>
+                                <div id="summary">
+                                <p class="collapse mbr-text mbr-fonts-style display-7" id="y11">
+                                    <ul STYLE="list-style-type: disc;">
+                                        <li class="ul1">Static Web Applications.</li>
+                                        <li class="ul1">Dynamic Web Applications</li>
+                                        <li class="ul1">Shop online or e-commerce</li>
+                                        <li class="ul1">Portal web app</li>
+                                        <li class="ul1">Animated Web Applications</li>
+                                        <li class="ul1">Web applications with a content management system</li>
+                                        <li class="ul1">Other considerations in the development of web applications</li>
+                                       
+                                    </ul>
+                                </p>
+                                <a class="collapsed" data-toggle="collapse" href="#y11" aria-expanded="false" aria-controls="y7"></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        
+                <div class="card p-3  col-md-6 col-lg-3">
+                    <div class="card-wrapper">
+                        <div class="card-img">
+                            <img src="images/course/excel.png" style="height: 142px;  width: 100%;" alt="Item Import from Excel, desktop accounting software" title="" class="" src="https://vyaparwebsiteimages.vypcdn.in/marketing-images/images/g12.jpg">
+                        </div>
+                        <div class="card-box">
+                            <h4 class="card-title pb-3 mbr-fonts-style display-7">Item Import from Excel</h4>
+                            <div id="summary">
+                                <p class="collapse mbr-text mbr-fonts-style display-7" id="y12">
+                                    Worry not if you have long item list in excel.You can import all your item details from excel in one shot in a very easy way to this home accounting software. Avoid entering items data one by one manually with this GST software for desktop.
+                                </p>
+                                <a class="collapsed" data-toggle="collapse" href="#y12" aria-expanded="false" aria-controls="y8"></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                
+            </div>
+        </div>
+        </section><br> -->
+        
+	<!-- Call To Action Section Two -->
+	<section class="call-to-action-section-two" style="background-image: url(images/background/3.png)">
+	
+	</section>
+	<!-- End Call To Action Section Two -->
+	
+	<!--Main Footer-->
+    <footer class="main-footer">
+		<!-- Pattern Layer -->
+		<div class="pattern-layer paroller" data-paroller-factor="0.60" data-paroller-factor-lg="0.20" data-paroller-type="foreground" data-paroller-direction="vertical" style="background-image:url(images/icons/icon-1.png)"></div>
+		<div class="pattern-layer-two" data-paroller-factor="0.60" data-paroller-factor-lg="0.20" data-paroller-type="foreground" data-paroller-direction="vertical" style="background-image:url(images/icons/icon-3.png)"></div>
+		<div class="auto-container">
+		
+        	<!-- Widgets Section -->
+            <div class="widgets-section">
+            	<div class="row clearfix">
+                	
+                    <!-- Big Column -->
+                    <div class="big-column col-lg-12 col-md-12 col-sm-12">
+                        <div class="row clearfix">
+							
+							<!--Footer Column-->
+                            <div class="footer-column col-lg-6 col-md-6 col-sm-12">
+                                <div class="footer-widget logo-widget">
+									<div class="logo">
+                                    	<a href="index-2.html"><img src="images/schlogo.png" alt="" class="logoimg" /></a>
+                                    </div>
+									<div class="text">Replenish him third creature and meat blessed void a fruit gathered you’re, they’re two waters own morning gathered greater.</div>
+									<div class="social-box">
+										<a href="#" class="fa fa-facebook"></a>
+										<a href="#" class="fa fa-instagram"></a>
+										<a href="#" class="fa fa-twitter"></a>
+										<a href="#" class="fa fa-google"></a>
+										<a href="#" class="fa fa-pinterest-p"></a>
+									</div>
+									<div class="copyright">Copyright &copy; 2020 QSD</div>
+								</div>
+							</div>
+							
+							<!--Footer Column-->
+                            <div class="footer-column col-lg-3 col-md-6 col-sm-12">
+								<div class="footer-widget links-widget">
+									<h4>Resource</h4>
+									<ul class="links-widget">
+										<li><a href="#">Privacy Policy</a></li>
+										<li><a href="#">Support Area</a></li>
+										<li><a href="#">Documentations</a></li>
+										<!-- <li><a href="#">How it works</a></li> -->
+										<li><a href="#">Terms of Policy</a></li>
+									</ul>
+								</div>
+							</div>
+                            <div class="footer-column col-lg-3 col-md-6 col-sm-12">
+								<div class="footer-widget links-widget">
+									<h4>Quick Links</h4>
+									<ul class="links-widget">
+										<li><a href="index.html">Home</a></li>
+										<!-- <li><a href="#">About us</a></li> -->
+										<li><a href="ourfeatures.html">Features</a></li>
+										<li><a href="gallery.html">Gallery</a></li>
+										<li><a href="contact.html">Contact</a></li>
+									</ul>
+								</div>
+							
+						</div>
+					</div>
+					
+					<!-- Big Column -->
+                    <div class="big-column col-lg-6 col-md-12 col-sm-12">
+                        <div class="row clearfix">
+							
+							<!--Footer Column-->
+                            <div class="footer-column col-lg-4 col-md-6 col-sm-12">
+                                
+							</div>
+							
+							<!--Footer Column-->
+                            <div class="footer-column col-lg-6 col-md-6 col-sm-12">
+                                
+							</div>
+						
+						</div>
+					</div>
+					
+				</div>
+			</div>
+			
+		</div>
+	</footer>
+
+</div>
+<!--End pagewrapper-->
+
+<!--Scroll to top-->
+<div class="scroll-to-top scroll-to-target" data-target="html"><span class="fa fa-arrow-circle-up"></span></div>
+
+<script src="js/jquery.js"></script>
+<script src="js/popper.min.js"></script>
+<script src="js/jquery.scrollTo.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
+<script src="js/jquery.fancybox.js"></script>
+<script src="js/appear.js"></script>
+<script src="js/swiper.min.js"></script>
+<script src="js/element-in-view.js"></script>
+<script src="js/jquery.paroller.min.js"></script>
+<script src="js/parallax.min.js"></script>
+<script src="js/tilt.jquery.min.js"></script>
+<!--Master Slider-->
+<script src="js/jquery.easing.min.js"></script>
+<script src="js/owl.js"></script>
+<script src="js/wow.js"></script>
+<script src="js/jquery-ui.js"></script>
+<script src="js/script.js"></script>
+
+</body>
+<script>
+$('.moreless-button').click(function() {
+    let id = $(this).attr('id');
+  $('.moretext'+id).slideToggle();
+  if ($(this).text() == "Read More") {
+    $(this).text("Read less");
+  } else {
+    $(this).text("Read More");
+  }
+});
+    </script>
+</html>
